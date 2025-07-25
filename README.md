@@ -1,12 +1,42 @@
-# React + Vite
+# 💰 Crypto Price Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean React web app to track cryptocurrency prices in real-time using the CoinGecko API. Users can switch between different currencies (USD, EUR, INR), view a list of coins, and click for detailed information.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🌍 Real-time crypto market data via CoinGecko API
+- 💱 Currency switcher (USD, EUR, INR)
+- 📊 Coin detail view with dynamic routing
+- 📦 React Context for global state (currency, coin list)
+- 🧭 Client-side routing with React Router
+- 💅 Clean, responsive UI with custom CSS
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [React Router DOM](https://reactrouter.com/)
+- [CoinGecko API](https://www.coingecko.com/en/api)
+- [Vite](https://vitejs.dev/)
+- Context API for global state management
+
+---
+
+## 🧩 Folder Structure
+
+src/
+├── assets/ # Logos and icons
+├── components/
+│ └── Navbar/ # Navbar component
+├── context/
+│ ├── CoinContext.js # Context object (createContext)
+│ └── CoinContext.jsx # Context provider with state + API logic
+├── pages/
+│ ├── Home/ # Homepage showing all coins
+│ └── Coin/ # Single coin details page
+├── App.jsx # Main App with Routes
+├── main.jsx # App entry point
+└── index.css # Global styles
