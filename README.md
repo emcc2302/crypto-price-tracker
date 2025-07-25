@@ -28,15 +28,27 @@ A simple and clean React web app to track cryptocurrency prices in real-time usi
 ## 🧩 Folder Structure
 
 src/
+
 ├── assets/ # Logos and icons
+
 ├── components/
+
 │ └── Navbar/ # Navbar component
+
 ├── context/
+
 │ ├── CoinContext.js # Context object (createContext)
+
 │ └── CoinContext.jsx # Context provider with state + API logic
+
 ├── pages/
+
 │ ├── Home/ # Homepage showing all coins
+
 │ └── Coin/ # Single coin details page
+
 ├── App.jsx # Main App with Routes
+
 ├── main.jsx # App entry point
+
 └── index.css # Global styles
