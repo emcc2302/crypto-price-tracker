@@ -13,7 +13,7 @@ A simple and clean React web app to track cryptocurrency prices in real-time usi
 - 🧭 Client-side routing with React Router
 - 💅 Clean, responsive UI with custom CSS
 
----
+----
 
 ## 🛠️ Tech Stack
 
