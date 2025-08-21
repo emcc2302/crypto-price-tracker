@@ -1,4 +1,4 @@
-# 💰 Crypto Price Trackerr
+# 💰 Crypto Price Tracker
 
 A simple and clean React web app to track cryptocurrency prices in real-time using the CoinGecko API. Users can switch between different currencies (USD, EUR, INR), view a list of coins, and click for detailed information.
 
